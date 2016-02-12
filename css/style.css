@@ -26,13 +26,15 @@ SCSS uses the "$" symbol ti deckare variables*/
 ---original code end here---	
 */
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
-.container {
+body {
   text-align: center;
-  background-color: #ece1c2;
+  background-color: #c86a54;
   overflow: hidden;
+  height: 100%;
 }
 
 .box {
+  background-color: #ece1c2;
   margin-top: 30%;
   height: 200px;
   width: 100%;

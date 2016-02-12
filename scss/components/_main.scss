@@ -9,14 +9,16 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 
 
-.container{
+body{
 	text-align: center;
-	background-color: $cream;
+	background-color: $secondary;
 	overflow: hidden;
+    height: 100%;
 }
 
 
 .box{
+    background-color: $cream;
     margin-top: 30%;
 	height: 200px;
 	width: 100%;
