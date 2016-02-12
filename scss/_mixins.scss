@@ -19,3 +19,26 @@
     90%{opacity: 0; width: 100%;}
     100%{opacity: 0;width: 0px;}
 }
+
+@mixin box-p{
+    color: $dark-orange;
+	font-family: $sans;
+	font-weight: 300;
+	position: absolute;
+	font-size: 40px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	top: 0px;
+	background-color: $orange;
+	opacity: 0;
+	text-transform: uppercase;
+	transition: all .5s ease;
+        &:hover{
+        animation-name: slidein;
+        top:175px;
+        opacity: 1;
+        transition: all .5s ease;
+        z-index: 2;
+    }
+}
