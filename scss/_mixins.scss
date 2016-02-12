@@ -13,18 +13,6 @@
 	*/
 
 
-@mixin keyframe{
-	0%{	left: -25px; background-color: rgba(255, 255, 255, .8); }
-	50%{ left: 0px; background-color: rgba(255, 255, 255, .1);}
-	100%{ left:-25px; background-color: rgba(255, 255, 255, .8); }
-}
-
-@mixin keyframe2{
-    0%{	left: 25px; background-color: rgba(255, 255, 255, .8); }
-	50%{ left: 0px; background-color: rgba(255, 255, 255, .1);}
-	100%{ left:25px; background-color: rgba(255, 255, 255, .8); }
-}
-
 @mixin keyframe-loader1{
     0%{width: 0px;}
     70%{width: 100%; opacity: 1;}
