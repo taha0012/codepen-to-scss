@@ -1,0 +1,235 @@
+/*	---original code---
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Times, serif;
+}
+
+h1 {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+body {
+  color: #FF8A8C;
+  margin-top: 5rem;
+}
+
+.btn {
+  color: #FF8A8C;
+  background-color: #000000;
+  padding: 3em 1em;
+  margin-left: 47%;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 8rem;
+}
+
+.btn:hover {
+  animation-name: rotate;
+  animation-duration: 1s;
+  background-color: #ff7173;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg)
+    color: #fff;
+  }
+  to {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    color: #FF8A8C;
+  }
+}
+
+.btn2 {
+  color: #FF8A8C;
+  animation-name: slidein;
+  display: block;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-name: slidein;
+  margin-left: 15%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 15%;
+  }
+}
+
+.btn3 {
+  color: #FF8A8C;
+  animation-name: slidein;
+  display: block;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-name: slidein2;
+  margin-left: 47%;
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 47%;
+  }
+}
+
+.btn4 {
+  color: #FF8A8C;
+  animation-name: slidein;
+  display: block;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-name: slidein3;
+  margin-left: 90%;
+}
+
+@keyframes slidein3 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 90%;
+  }
+}
+---original code end here---	
+*/
+
+
+
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Times, serif;
+}
+
+h1 {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+body {
+  color: #FF8A8C;
+  margin-top: 5rem;
+}
+
+.btn {
+  color: #FF8A8C;
+  background-color: #000000;
+  padding: 3em 1em;
+  margin-left: 47%;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 8rem;
+}
+
+.btn:hover {
+  animation-name: rotate;
+  animation-duration: 1s;
+  background-color: #ff7173;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    /* Firefox*/
+    -webkit-transform: rotate(0deg);
+    /* Chrome,Safari,pera*/
+    -o-transform: rotate(0deg);
+    /* oldOpera*/
+    -ms-transform: rotate(0deg);
+    /* IE*/
+    color: #fff;
+  }
+  to {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    /* Firefox*/
+    -webkit-transform: rotate(360deg);
+    /* Chrome,Safari,pera*/
+    -o-transform: rotate(360deg);
+    /* oldOpera*/
+    -ms-transform: rotate(360deg);
+    /* IE*/
+    color: #FF8A8C;
+  }
+}
+
+.btn2 {
+  color: #FF8A8C;
+  animation-name: slidein;
+  display: block;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-name: slidein;
+  margin-left: 15%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 15%;
+  }
+}
+
+.btn3 {
+  color: #FF8A8C;
+  animation-name: slidein;
+  display: block;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-name: slidein2;
+  margin-left: 47%;
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 47%;
+  }
+}
+
+.btn4 {
+  color: #FF8A8C;
+  animation-name: slidein;
+  display: block;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-name: slidein3;
+  margin-left: 90%;
+}
+
+@keyframes slidein3 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 90%;
+  }
+}
