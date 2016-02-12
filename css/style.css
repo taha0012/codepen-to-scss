@@ -28,7 +28,7 @@ SCSS uses the "$" symbol ti deckare variables*/
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 .container {
   text-align: center;
-  background-color: #e74c3c;
+  background-color: #ece1c2;
   overflow: hidden;
 }
 
@@ -57,11 +57,11 @@ SCSS uses the "$" symbol ti deckare variables*/
   transition: all .2s ease;
 }
 
-.box:hover p {
+.box p:hover {
   bottom: 0px;
   top: 175px;
   opacity: 1;
-  transition: all .2s ease;
+  transition: all .5s ease;
   z-index: 2;
 }
 
