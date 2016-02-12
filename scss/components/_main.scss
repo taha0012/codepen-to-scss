@@ -17,9 +17,9 @@
 
 
 .box{
+    margin-top: 30%;
 	height: 200px;
 	width: 100%;
-	float:left;
 	transition: all .2s ease;
 }
 
@@ -48,15 +48,6 @@
         transition: all .5s ease;
         z-index: 2;
     }
-}
-
-
-
-/* MEDIA QUERIES */
-@media (max-width: 700px){
-	.box{
-		width: 50%;
-	}
 }
 
 
