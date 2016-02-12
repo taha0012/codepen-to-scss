@@ -40,7 +40,7 @@ SCSS uses the "$" symbol ti deckare variables*/
 }
 
 .box p {
-  color: #777;
+  color: #7f5219;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 500;
   position: absolute;
@@ -56,7 +56,6 @@ SCSS uses the "$" symbol ti deckare variables*/
 }
 
 .box p:hover {
-  bottom: 0px;
   top: 175px;
   opacity: 1;
   transition: all .5s ease;
@@ -80,7 +79,7 @@ SCSS uses the "$" symbol ti deckare variables*/
   content: "LOADING ...";
   color: #fff;
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 16px;
   position: absolute;
   width: 100%;
@@ -88,7 +87,7 @@ SCSS uses the "$" symbol ti deckare variables*/
   line-height: 20px;
   left: 0;
   top: 0;
-  background-color: #e74c3c;
+  background-color: #d58929;
   z-index: 1;
 }
 
