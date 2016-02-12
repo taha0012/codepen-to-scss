@@ -5,13 +5,13 @@ like colours, font-families, or any css value you can think you might want to re
 SCSS uses the "$" symbol ti deckare variables*/
 
 // Colours 
-$pink: #FF8A8C;
-$dark-pink: darken($pink, 5%);
+$cream: #ece1c2;
+$dark-pink: darken($cream, 5%);
 	
 
-$primary: $pink;
+$primary: $cream;
 $secondary: #000000;
 $white: #fff;
 
 //Font family
-$times: Times, serif;
+$sans: "Helvetica Neue", sans-serif;
